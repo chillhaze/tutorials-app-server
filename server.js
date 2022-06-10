@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 var corsOptions = {
-  origin: 'https://quiet-reef-78598.herokuapp.com/api/tutorials',
+  origin: '*',
 };
 
 app.use(cors(corsOptions));
